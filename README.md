@@ -20,7 +20,7 @@ A known_hosts file is needed in the same directory of the script. Every host for
 
 Specify hostname or IP of the machine able to access OC CLI and the OCP Console url used to login via "oc login" command as follows:
 
-hostname = 'HOSTNAME_OR_IP' 
+hostname = 'HOSTNAME_OR_IP'  
 console = 'CONSOLE_URL'
 
 You can configure the script to check the deployment names using a regex if a naming convention is adopted, configurable in function "name_check" under "pattern".
